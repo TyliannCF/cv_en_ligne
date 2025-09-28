@@ -1,12 +1,21 @@
-@media ( min-width : 100px) and (max-width : 4000px){
+@media screen and (min-width : 678px){
 
 body{
-    background-image:  var(--main-background);
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dHVzaDJqZjdqZXZ6dGtkNjhvNTJldWJ1ODFqbTdtYmY3czdqZmZ4eCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/sWFYgYFjHGugleQdO7/giphy.gif),
+    var(--main-background);
     height: 100vw;  
     margin:0;  
 }
 html{
     scroll-behavior: smooth;
+}
+.home{
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dHVzaDJqZjdqZXZ6dGtkNjhvNTJldWJ1ODFqbTdtYmY3czdqZmZ4eCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/sWFYgYFjHGugleQdO7/giphy.gif),
+/* linear-gradient(#03070D, rgb(14,15,53), #000000); */
+}
+.home-topr{
+    position: relative;
+    padding: 28px 0;
 }
 
 .enbasla{
@@ -17,14 +26,10 @@ html{
     height: 100vh;
 }
 
-.home-topr{
-    position: relative;
-    padding: 28px 0;
-}
 
-.home-nav {
-    font-size: 1.2rem;
-    font-family :'Montserrat', sans-serif;
+.home-nav{
+    font-size: 1.1rem;
+    font-family :'Times New Roman', Times, serif;
     font-weight: bold;
     color: #faedf0;
     float : right;
@@ -34,7 +39,7 @@ html{
     text-decoration: none;
 }
 .home-nav:hover{
-    background: gold;
+    color : gold;
 }
 
 .top_container {
@@ -213,5 +218,225 @@ table{
     margin-right: auto;
     color: aliceblue;
 }
+}
+@media screen and (max-width : 676px){
 
+body{
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dHVzaDJqZjdqZXZ6dGtkNjhvNTJldWJ1ODFqbTdtYmY3czdqZmZ4eCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/sWFYgYFjHGugleQdO7/giphy.gif),
+    var(--main-background);
+    height: 100vw;  
+    margin:0;  
+}
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dHVzaDJqZjdqZXZ6dGtkNjhvNTJldWJ1ODFqbTdtYmY3czdqZmZ4eCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/sWFYgYFjHGugleQdO7/giphy.gif),
+
+}
+.home-topr{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 28px 0;
+}
+
+.enbasla{
+    background: var(--second-background);
+}
+.some {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.home-nav{
+    font-size: 1rem;
+    font-family :'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #faedf0;
+    float : right;
+    margin: 20px 0;
+    margin-right: auto;
+    margin-right: auto;
+    padding: 0 2em 0 2em;
+    display: block;
+    text-decoration: none;
+}
+.home-nav:hover{
+    color : gold;
+}
+
+.top_container {
+    position: relative;
+
+}
+.astronaut {
+    width: 33%;
+    display: block;
+    margin: 5% auto 0 auto;
+}
+.intro_container{
+    padding: 5% 0 10% 0;
+    background: var(--second-background);
+}
+.bottom-container {
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dHVzaDJqZjdqZXZ6dGtkNjhvNTJldWJ1ODFqbTdtYmY3czdqZmZ4eCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/sWFYgYFjHGugleQdO7/giphy.gif);
+    width: 100vw;
+  margin: 10% auto;
+  margin-bottom: 0;
+  text-align: center;
+  width: 60%;
+  padding-bottom: 10%;
+}
+h1 {
+    font-family: 'Times New Roman', cursive;
+    color:#faedf0;
+    text-shadow: 1px 1px #ec255a;
+    font-size: 5em;
+    padding-top: 5%;
+    margin: 0 auto;
+    text-align: center;
+}
+p {
+    font-family: 'Merriweather', serif;
+    color: #F4D9DF;
+    font-size: 1rem;
+    text-align:center;
+}
+
+.forh2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    color:#faedf0;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0;
+}
+.middle-container {
+    margin-top: 10%;
+}
+.header-middle {
+    font-family: 'Times New Roman', Times, serif;
+    color: #faedf0;
+    font-weight: bold;
+    margin: 5% auto;
+    text-align: center;
+}
+.resizer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.resizer-center{
+    text-align: center;
+}
+.imagesD{
+    float: right;
+    margin-left: 5%;
+}
+.imagesG{
+    float :left;
+    margin-right: 15px;
+}
+.resizer-2{
+    margin-bottom: 15%;
+    margin-top: 15%;
+}
+.do-header{
+    text-align: center;
+}
+.do-headerR{
+    text-align: center;
+}
+.col-pad{
+    padding-right: 20px;
+}
+.contact-midtop{
+    font-weight: bold;
+    color: gold;
+}
+.p-contact{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.button-contact{
+    background: -webkit-gradient #121342;
+    background-image: -webkit-linear-gradient(top, #121342, #333788);
+    background-image: -moz-linear-gradient(top, #121342, #333788);
+    background-image: -ms-linear-gradient(top, #121342, #333788);
+    background-image: -o-linear-gradient(top, #121342, #333788);
+    background-image: linear-gradient(to bottom, #121342, #333788);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Times New Roman', Times, serif, cursive;
+    color: #FC9601;
+    font-size: 1.7rem;
+    padding: 10px 20px 6px 20px;
+    text-decoration: none;
+}
+.button-contact:hover{
+    background: -webkit-gradient #eddcbd;
+    background-image: -webkit-linear-gradient(top, #eddcbd, #CCCA77);
+    background-image: -moz-linear-gradient(top, #eddcbd, #CCCA77);
+    background-image: -ms-linear-gradient(top, #eddcbd, #CCCA77);
+    background-image: -o-linear-gradient(top, #eddcbd, #CCCA77);
+    background-image: linear-gradient(to bottom, #eddcbd, #CCCA77);
+}
+.footer-bckgrnd{
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3dHVzaDJqZjdqZXZ6dGtkNjhvNTJldWJ1ODFqbTdtYmY3czdqZmZ4eCZlcD12MV9zdGlja2Vyc19zZWFyY2gmY3Q9cw/sWFYgYFjHGugleQdO7/giphy.gif), 
+    var(--far-background);
+}
+.footer-container{
+    text-align: center;
+    padding: 3% 0;
+}
+.link-footer{
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F4D9DF;
+}
+.image-footer{
+    width: 3%;
+    margin: 0 10px;
+}
+.image-footer:hover{
+    border: solid transparent #ec255a;
+}
+.w-d{
+    margin: 1.70% auto 0 auto;
+    font-family: 'Times New Roman', Times, serif;
+    color: #F4D9DF;
+    font-size: 0.70rem;
+}
+h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    color :gold;
+}
+td {
+  font-family: 'Times New Roman', Times, serif;
+  color: whitesmoke;
+  border-bottom-style: solid;
+  border-color: #F4D9DF;
+  border-width: medium;
+  padding: 0;
+  padding-bottom: 15px;
+  padding-top:15px;
+}
+th {
+  font-family: 'Times New Roman',Times, serif;
+  color: whitesmoke;
+  border-bottom-style: solid;
+  border-color: #F4D9DF;
+  border-width: medium;
+  padding: 0;
+  padding-bottom: 5px;
+}
+table{
+    color: #F4D9DF;
+}
 }
