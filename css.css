@@ -8,6 +8,7 @@ body{
 html{
     scroll-behavior: smooth;
 }
+
 .enbasla{
     background: var(--second-background);
 }
@@ -33,7 +34,7 @@ html{
     text-decoration: none;
 }
 .home-nav:hover{
-    color: gold;
+    background: gold;
 }
 
 .top_container {
@@ -208,6 +209,8 @@ th {
   padding-bottom: 5px;
 }
 table{
+    margin-left: auto;
+    margin-right: auto;
     color: aliceblue;
 }
 
