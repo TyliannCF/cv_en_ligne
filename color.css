@@ -1,0 +1,5 @@
+:root{
+    --main-background: linear-gradient(#000000, rgb(21, 23, 116));
+    --second-background: linear-gradient(rgb(21,23,116), #4045aa);
+    --far-background: linear-gradient(#4045aa);
+}
